@@ -36,12 +36,19 @@ cd ~/.kube
 mv config config.old
 wget http://sprunge.us/<path> -O config
 ```
+![](./assets/images/screenshots/Screenshot_2021-08-20_09-49-25.png)
+
+![](./assets/images/screenshots/Screenshot_2021-08-20_09-50-46.png)
 
 Get virtual machine ip address
 
 ```bash
-ip address
+ip addr
 ```
+
+![](./assets/images/screenshots/Screenshot_2021-08-20_09-52-35.png)
+
+![](./assets/images/screenshots/Screenshot_2021-08-20_09-56-18.png)
 
 Update kube config's cluster server ip address with virtual machine ip address.
 
@@ -50,6 +57,8 @@ Test config
 ```bash
 kubectl cluster-info
 ```
+
+![](./assets/images/screenshots/Screenshot_2021-08-20_09-58-11.png)
 
 ## First deployment
 
